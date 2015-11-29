@@ -44,6 +44,7 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(989, 537)
         Me.Controls.Add(Me.WebBrowser1)
         Me.Name = "Form1"
+        Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Twitch Explorer Lite"
         Me.ResumeLayout(False)
