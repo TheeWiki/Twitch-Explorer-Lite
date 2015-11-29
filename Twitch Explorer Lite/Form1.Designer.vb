@@ -35,7 +35,7 @@ Partial Class Form1
         Me.WebBrowser1.ScrollBarsEnabled = False
         Me.WebBrowser1.Size = New System.Drawing.Size(989, 537)
         Me.WebBrowser1.TabIndex = 0
-        Me.WebBrowser1.Url = New System.Uri("http://www.twitch.tv/", System.UriKind.Absolute)
+        Me.WebBrowser1.Url = New System.Uri("http://www.twitch.tv/directory", System.UriKind.Absolute)
         '
         'Form1
         '

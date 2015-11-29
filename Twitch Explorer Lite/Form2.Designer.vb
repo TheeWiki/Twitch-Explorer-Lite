@@ -22,18 +22,33 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
-        'TextBox1
+        'CheckBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(71, 11)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 0
+        Me.CheckBox1.Checked = True
+        Me.CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.CheckBox1.Location = New System.Drawing.Point(91, 35)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(80, 24)
+        Me.CheckBox1.TabIndex = 3
+        Me.CheckBox1.Text = "TopMost"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Checked = Global.Twitch_Explorer_Lite.My.MySettings.Default.isUserChecked
+        Me.RadioButton2.Location = New System.Drawing.Point(182, 12)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(47, 17)
+        Me.RadioButton2.TabIndex = 2
+        Me.RadioButton2.Text = "User"
+        Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'RadioButton1
         '
@@ -47,26 +62,14 @@ Partial Class Form2
         Me.RadioButton1.Text = "Game"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'TextBox1
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(182, 12)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(47, 17)
-        Me.RadioButton2.TabIndex = 2
-        Me.RadioButton2.Text = "User"
-        Me.RadioButton2.UseVisualStyleBackColor = True
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.Checked = True
-        Me.CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.CheckBox1.Location = New System.Drawing.Point(91, 35)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(80, 24)
-        Me.CheckBox1.TabIndex = 3
-        Me.CheckBox1.Text = "TopMost"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.TextBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Global.Twitch_Explorer_Lite.My.MySettings.Default, "rememberVal", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.TextBox1.Location = New System.Drawing.Point(71, 11)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 0
+        Me.TextBox1.Text = Global.Twitch_Explorer_Lite.My.MySettings.Default.rememberVal
         '
         'Form2
         '
