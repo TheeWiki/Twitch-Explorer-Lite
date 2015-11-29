@@ -1,0 +1,11 @@
+C:\Users\Dennis\Documents\Visual Studio 2012\Projects\Twitch Explorer Lite\Twitch Explorer Lite\bin\Debug\Twitch Explorer Lite.exe.config
+C:\Users\Dennis\Documents\Visual Studio 2012\Projects\Twitch Explorer Lite\Twitch Explorer Lite\bin\Debug\Twitch Explorer Lite.exe
+C:\Users\Dennis\Documents\Visual Studio 2012\Projects\Twitch Explorer Lite\Twitch Explorer Lite\bin\Debug\Twitch Explorer Lite.pdb
+C:\Users\Dennis\Documents\Visual Studio 2012\Projects\Twitch Explorer Lite\Twitch Explorer Lite\bin\Debug\Twitch Explorer Lite.xml
+C:\Users\Dennis\Documents\Visual Studio 2012\Projects\Twitch Explorer Lite\Twitch Explorer Lite\obj\Debug\Twitch_Explorer_Lite.Form1.resources
+C:\Users\Dennis\Documents\Visual Studio 2012\Projects\Twitch Explorer Lite\Twitch Explorer Lite\obj\Debug\Twitch_Explorer_Lite.Form2.resources
+C:\Users\Dennis\Documents\Visual Studio 2012\Projects\Twitch Explorer Lite\Twitch Explorer Lite\obj\Debug\Twitch_Explorer_Lite.Resources.resources
+C:\Users\Dennis\Documents\Visual Studio 2012\Projects\Twitch Explorer Lite\Twitch Explorer Lite\obj\Debug\Twitch Explorer Lite.vbproj.GenerateResource.Cache
+C:\Users\Dennis\Documents\Visual Studio 2012\Projects\Twitch Explorer Lite\Twitch Explorer Lite\obj\Debug\Twitch Explorer Lite.exe
+C:\Users\Dennis\Documents\Visual Studio 2012\Projects\Twitch Explorer Lite\Twitch Explorer Lite\obj\Debug\Twitch Explorer Lite.xml
+C:\Users\Dennis\Documents\Visual Studio 2012\Projects\Twitch Explorer Lite\Twitch Explorer Lite\obj\Debug\Twitch Explorer Lite.pdb
